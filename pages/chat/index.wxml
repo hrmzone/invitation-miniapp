@@ -22,8 +22,8 @@
     </view>
   </view>
   <view class='btn_area'>
-    <view class='msg_btn' bindtap='leaveMsg'>说点啥吧</view>
-    <view class='sign_btn' bindtap='signIn'>我要出席</view>
+    <view class='sign_btn' bindtap='signIn'>我要报名</view>
+    <view class='msg_btn' bindtap='leaveMsg'>我要留言</view>
   </view>
   <view class="send_msg" wx:if="{{msgSta}}">
     <image src='/images/green-flower.png' class='msg_top' mode="aspectFit"></image>
@@ -54,28 +54,28 @@
         </view>
       </view>
       <view class='form-label'>
-        <view class='form-tit'>几人出席</view>
+        <view class='form-tit'>选择专业</view>
         <view class="form-ipt">
           <radio-group class="radio-group" name="plan">
             <label class="radio">
-              <radio class='ws-checkbox' value="自己一人" checked="checked" />自己一人
+              <radio class='ws-checkbox' value="学前教育" checked="checked" />学前教育
             </label>
             <label class="radio">
-              <radio class='ws-checkbox' value="两人出席" checked="" />两人出席
+              <radio class='ws-checkbox' value="电子商务" checked="" />电子商务
             </label>
             <label class="radio">
-              <radio class='ws-checkbox' value="三人出席" checked="" />三人出席
+              <radio class='ws-checkbox' value="轨道交通" checked="" />轨道交通
             </label>
             <label class="radio">
-              <radio class='ws-checkbox' value="三人以上" checked="" />三人以上
+              <radio class='ws-checkbox' value="汽修" checked="" />汽修
             </label>
           </radio-group>
         </view>
       </view>
       <view class='form-label'>
-        <view class='form-tit'>备注</view>
+        <view class='form-tit'>其他专业</view>
         <view class="form-ipt">
-          <textarea class='textarea' name="extra" placeholder="请填写您的备注需求" fixed="true" />
+          <textarea class='textarea' name="extra" placeholder="请填写您意向的专业..." fixed="true" />
         </view>
       </view>
       <button type="primary" class="send_btn" form-type="submit" wx:if="{{auth}}">确定提交</button>

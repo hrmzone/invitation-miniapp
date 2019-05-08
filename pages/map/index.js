@@ -25,7 +25,8 @@ Page({
         'Accept': 'application/json'
       },
       success: function(res) {
-        var lng = res.data.location.lng
+        //这里源程序有一个错误，res.data.location.lon，数据库location表的字段为lon，但是原程序是res.data.location.lng，导致导航无法获得一个坐标数据
+        var lng = res.data.location.lon
         var lat = res.data.location.lat
         wx.openLocation({
           latitude: parseFloat(lat),
