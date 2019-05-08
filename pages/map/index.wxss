@@ -7,7 +7,7 @@
 
 .t1 {
   width: 626rpx;
-  height: 180rpx;
+  height: 150rpx;
   margin: 0 auto;
   display: block;
 }
