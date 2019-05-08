@@ -30,9 +30,9 @@ App({
     userInfo: null,
 
     // 下面填写酒店相关信息
-    lat: 30.0000,
-    lon: 120.000000,
-    addressName: "希尔顿大酒店",
+    lat: 30.628050,
+    lon: 114.574790,
+    addressName: "武汉市娲石技术学校",
 
     appid: 'wx77856a389b827dee', //此处改成您自己的小程序appid
     uid: 1,
