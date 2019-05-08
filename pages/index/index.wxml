@@ -19,16 +19,22 @@
   <view class='datetime' animation="{{animationData}}">
     <view class='box'>
       <view class="name css13610f7ae66601">
-        <span class="fl">{{mainInfo.he}}</span>
-        <span class="and">❤️</span>
-        <span class="fr ">{{mainInfo.she}}</span>
+        <!-- <span class="fl">{{mainInfo.he}}</span> -->
+        <!-- <span class="and">❤️</span> -->
+        <span class="and">武汉娲石技术学校</span>
+        <!-- <span class="fr ">{{mainInfo.she}}</span> -->
       </view>
       <view class="date css13610f7ae66601">
-        <view>谨定于 {{mainInfo.date}}</view>
+        <!-- <view>谨定于 {{mainInfo.date}}</view>
         <view>农历 {{mainInfo.lunar}} 举办婚礼</view>
         <view>地址: {{mainInfo.address}}</view>
         <view>席设: {{mainInfo.hotel}}</view>
-        <view>恭请您的光临</view>
+        <view>恭请您的光临</view> -->
+        <view>湖北省重点技工学校</view>
+        <view>武汉商贸职业学院</view>
+        <view>武汉外语外事职业学院</view>
+        <view>黄冈科技职业学院</view>
+        <view>联合培养</view>
       </view>
       <image class="we" src='/images/we.png'></image>
     </view>

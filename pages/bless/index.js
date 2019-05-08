@@ -144,8 +144,8 @@ Page({
     var that = this;
     //console.log(that.data);
     return {
-      title: "分享给好友吧",
-      imageUrl: "",
+      title: "武汉娲石技术学校欢迎您",
+      imageUrl: "http://whwsxx.cn/wp-content/uploads/2019/04/%E8%AF%81%E4%B9%A62.jpg",
       path: 'pages/index/index',
       success: function(res) {
         wx.showToast({
