@@ -180,8 +180,7 @@ Page({
         auth: true
       })
       console.log(1, e.detail.userInfo)
-      //that.foo()
-
+      that.foo()
     } else {
       wx.showToast({
         title: "为了您更好的体验,请先同意授权",
@@ -195,7 +194,6 @@ Page({
     console.log(2, that.data.inputValue)
     if (that.data.inputValue) {
       //留言内容不是空值
-
       var userInfo = that.data.userInfo;
       var name = userInfo.nickName;
       var face = userInfo.avatarUrl;
